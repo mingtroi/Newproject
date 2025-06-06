@@ -1,0 +1,69 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+    Layout = "_AdminLayout";
+    @addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
+	@using WebClient.Models;
+}
+@addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
+@* <div id="angular-root">Loading...</div> *@
+
+@* <!-- Load Angular scripts --> *@
+@* <environment include="Development,Production"> *@
+@*     <script src="~/angular/runtime.js"></script> *@
+@*     <script src="~/angular/polyfills.js"></script> *@
+@*     <script src="~/angular/main.js"></script> *@
+@*     <link rel="stylesheet" href="~/angular/styles.css" /> *@
+@* </environment> *@
+
+@* <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script> *@
+<h1>this is an employee Website</h1>
+<a asp-controller="Employee" asp-action="Create">Create Employee</a>
+<table border="1">
+    <tr>
+        <th>EmployeeId</th>
+        <th>Username </th>
+        <th>PasswordHash</th>
+        <th>FullName </th>
+        <th>DOB</th>
+        <th>Gender </th>
+        <th>Address</th>
+        <th>PhoneNumber</th>
+        <th>Position</th>
+        <th>Salary</th>
+        <th>StartDate</th>
+        <th>ProfilePicture</th>
+        <th>Role</th>
+    </tr>
+    @foreach(EmployeeDTO p in Model)
+    {
+        <tr>
+            <td>@p.EmployeeId</td>
+			<td><a asp-controller="Employee" asp-action="Detail" asp-route-id="@p.EmployeeId">@p.Username</a></td>
+			<td>@p.PasswordHash</td>
+			<td>@p.FullName</td>
+			<td>@p.DateOfBirth</td>
+			<td>@p.Gender</td>
+			<td>@p.Address</td>
+			<td>@p.PhoneNumber</td>
+			<td>@p.Position</td>
+			<td>@p.Salary</td>
+			<td>@p.StartDate</td>
+            <td>
+                <img src="~/@p.ProfilePicture" alt="Ảnh nhân viên" width="100" height="100" />
+            </td>
+			<td>@p.Role</td>
+            <td> 
+                 <a asp-controller="Employee" asp-action="Update" asp-route-id="@p.EmployeeId">Update</a> 
+            </td>
+            <td> 
+                 <form asp-action="Delete" asp-controller="Employee" asp-route-id="@p.EmployeeId" method="post"> 
+                     <button type="submit">Delete</button> 
+                 </form> 
+            </td>
+        </tr>
+    }
+</table>
+<a asp-action="List" asp-controller="Department">Department List</a>
+<a asp-action="List" asp-controller="Salary">Salary List</a>

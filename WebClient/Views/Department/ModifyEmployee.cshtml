@@ -1,0 +1,49 @@
+﻿@model WebClient.Models.DepartmentDTO
+@using WebClient.Models
+
+<h3>@Model.DepartmentName</h3>
+
+<table border="1" cellpadding="8" cellspacing="0">
+    <thead>
+        <tr>
+            <th>ID</th>
+            <th>Full Name</th>
+            <th>Username</th>
+            <th>Position</th>
+            <th>Gender</th>
+            <th>Action</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (EmployeeDTO emp in ViewBag.Employees )
+        {
+            <tr>
+                <td>@emp.EmployeeId</td>
+                <td>@emp.FullName</td>
+                <td>@emp.Username</td>
+                <td>@emp.Position</td>
+                <td>@emp.Gender</td>
+                <td>
+                    @if (Model.Employees?.Any(e => e.EmployeeId == emp.EmployeeId) != true)
+                    {
+                        <!-- Employee chưa có trong department -> Show Add button -->
+                        <form method="post" asp-action="AddEmployeeToDepartment" asp-controller="Department">
+                            <input type="hidden" name="employeeId" value="@emp.EmployeeId" />
+                            <input type="hidden" name="departmentId" value="@Model.DepartmentId" />
+                            <button type="submit" class="btn btn-success">Add</button>
+                        </form>
+                    }
+                    else
+                    {
+                        <!-- Employee đã có trong department -> Show Remove button -->
+                        <form method="post" asp-action="RemoveEmployeeFromDepartment" asp-controller="Department">
+                            <input type="hidden" name="employeeId" value="@emp.EmployeeId" />
+                            <input type="hidden" name="departmentId" value="@Model.DepartmentId" />
+                            <button type="submit" class="btn btn-danger">Remove</button>
+                        </form>
+                    }
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

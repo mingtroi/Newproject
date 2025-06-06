@@ -1,0 +1,56 @@
+﻿@model WebClient.Models.DepartmentDTO
+@using WebClient.Models
+
+@{
+    ViewData["Title"] = "Chi tiết phòng ban";
+}
+
+<h2>@ViewData["Title"]</h2>
+
+@if (TempData["message"] != null)
+{
+    <p style="color: green">@TempData["message"]</p>
+}
+
+<div>
+    <p><strong>Department ID:</strong> @Model.DepartmentId</p>
+    <p><strong>Tên phòng ban:</strong> @Model.DepartmentName</p>
+    <p><strong>Mô tả:</strong> @Model.Description</p>
+</div>
+
+<h3>Danh sách nhân viên</h3>
+<table border="1" cellpadding="8" cellspacing="0">
+    <thead>
+        <tr>
+            <th>ID</th>
+            <th>Full Name</th>
+            <th>Username</th>
+            <th>Position</th>
+            <th>Gender</th>
+        </tr>
+    </thead>
+    <tbody>
+        @if (Model.Employees != null && Model.Employees.Any())
+        {
+            @foreach (var emp in Model.Employees)
+            {
+                <tr>
+                    <td>@emp.EmployeeId</td>
+                    <td>@emp.FullName</td>
+                    <td>@emp.Username</td>
+                    <td>@emp.Position</td>
+                    <td>@emp.Gender</td>
+                </tr>
+            }
+        }
+        else
+        {
+            <tr>
+                <td colspan="5">Không có nhân viên nào trong phòng ban này.</td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+<a asp-action="List" asp-controller="Department" class="btn btn-secondary">Quay lại</a>
+<a asp-action="Update" asp-controller="Department" asp-route-id="@Model.DepartmentId" class="btn btn-primary">Chỉnh sửa</a>

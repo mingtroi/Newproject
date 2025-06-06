@@ -1,0 +1,53 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+@using WebClient.Models
+@model WebClient.Models.EmployeeDTO
+@addTagHelper *,Microsoft.AspNetCore.Mvc.TagHelpers
+@{
+    // ViewData["Title"] = "Create Employee";
+    // var departments = ViewBag.Departments as List<PRN232PRJ.Models.Department>;
+}
+
+<h2>Create Employee</h2>
+
+<form asp-action="Create" asp-controller="Employee" method="post">
+	UserName : <input type="text" asp-for="Username" required /><br />
+	Password : <input type="password" asp-for="PasswordHash" required /><br />
+	Full Name : <input type="text" asp-for="FullName" required /><br />
+	Date Of Birth : <input type="date" asp-for="DateOfBirth" required /><br />
+    Gender : 
+    <select asp-for="Gender">
+        <option value="">-- Select Gender --</option>
+        <option value="Male">Male</option>
+        <option value="Female">Female</option>
+	</select> <br />
+    Address <input type="text" asp-for="Address" required/> <br />
+	Phone Number : <input type="text" asp-for="PhoneNumber" required /> <br />
+	Position : <input type="text" asp-for="Position" required /> <br />
+	Salary : <input type="number" asp-for="Salary" required /> <br />
+	Start Date : <input type="date" asp-for="StartDate" required /> <br />
+	Profile Picture : <input type="file" asp-for="ProfilePicture" accept="image/*" /> <br />
+    Role : <input type="text" asp-for="Role" required/><br />
+	
+    @* <div> *@
+    @*     <label>Departments</label> *@
+    @*     @foreach (var dept in departments) *@
+    @*     { *@
+    @*         <div> *@
+    @*             <input type="checkbox" name="SelectedDepartmentIds" value="@dept.DepartmentId" /> *@
+    @*             @dept.DepartmentName *@
+    @*         </div> *@
+    @*     } *@
+    @* </div> *@
+
+    <button type="submit">Create</button>
+
+    <h4 style="color:red"> @ViewBag.message</h4>
+</form>
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}

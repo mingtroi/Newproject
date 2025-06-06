@@ -1,0 +1,57 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+@using WebClient.Models;
+@addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
+
+<form method="post" asp-action="CreateSalaries" asp-controller="Salary" class="mb-3">
+    <button type="submit" class="btn btn-success">Tạo Lương</button>
+</form>
+<table class="table table-striped table-bordered">
+    <thead class="table-dark">
+        <tr>
+            <th>ID</th>
+            <th>User Name</th>
+            <th>Full Name</th>
+            <th>Bonus</th>
+            <th>Allowance</th>
+            <th>BaseSalary</th>
+            <th>Total Income</th>
+            <th>Date Salary</th>
+            <th>PAID</th>
+            <th>Action</th>
+        </tr>
+    </thead>
+    <tbody>
+
+            @foreach (SalaryDTO salary in Model)
+            {
+                <tr>
+                    <td>@salary.SalaryId</td>
+                    <td>@salary.Employee?.Username</td>
+                    <td>@salary.Employee?.FullName</td>
+                    <td>@salary.Bonus</td>
+                    <td>@salary.Allowance</td>
+                    <td>@salary.BaseSalary</td>
+                    <td>@salary.TotalIncome</td>
+                    <td>@salary.SalaryDate?.ToString("yyyy-MM-dd")</td>
+                    <td>@(salary.Paid ?? false ? "Đã trả" : "Chưa trả")</td>
+                    <td> 
+                         @if (salary.Paid.GetValueOrDefault() == true) 
+                         { 
+                             <span class="text-success">Đã thanh toán</span> 
+                         } 
+                         else 
+                         {
+                             <form method="post" asp-controller="Salary" asp-action="" asp-route-id="@salary.SalaryId" style="display:inline;"> 
+                                 <button type="submit" class="btn btn-info btn-sm">Pay</button> 
+                             </form> 
+                             <a href="/Admin/Update_Pay_Salary?id=@salary.SalaryId" class="btn btn-info btn-sm">Update</a> 
+                         } 
+                     </td> 
+                </tr>
+            }
+    </tbody>
+</table>

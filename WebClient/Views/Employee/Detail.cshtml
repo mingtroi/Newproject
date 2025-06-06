@@ -1,0 +1,63 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+	@using WebClient.Models;
+}
+    @addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
+
+@* <div id="angular-root">Loading...</div> *@
+
+@* <!-- Load Angular scripts --> *@
+@* <environment include="Development,Production"> *@
+@*     <script src="~/angular/runtime.js"></script> *@
+@*     <script src="~/angular/polyfills.js"></script> *@
+@*     <script src="~/angular/main.js"></script> *@
+@*     <link rel="stylesheet" href="~/angular/styles.css" /> *@
+@* </environment> *@
+
+@* <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script> *@
+
+<table border="1">
+    <tr>
+        <th>EmployeeId</th>
+        <th>Username </th>
+        <th>PasswordHash</th>
+        <th>FullName </th>
+        <th>DOB</th>
+        <th>Gender </th>
+        <th>Address</th>
+        <th>PhoneNumber</th>
+        <th>Position</th>
+        <th>Salary</th>
+        <th>StartDate</th>
+        <th>ProfilePicture</th>
+        <th>Role</th>
+    </tr>
+        <tr>
+            <td>@Model.EmployeeId</td>
+			<td>@Model.Username</td>
+			<td>@Model.PasswordHash</td>
+			<td>@Model.FullName</td>
+			<td>@Model.DateOfBirth</td>
+			<td>@Model.Gender</td>
+			<td>@Model.Address</td>
+			<td>@Model.PhoneNumber</td>
+			<td>@Model.Position</td>
+			<td>@Model.Salary</td>
+			<td>@Model.StartDate</td>
+            <td>
+                <img src="~/@Model.ProfilePicture" alt="Ảnh nhân viên" width="100" height="100" />
+            </td>
+			<td>@Model.Role</td>
+            <td> 
+                 <a asp-controller="Employee" asp-action="Update" asp-route-id="@Model.EmployeeId">Update</a> 
+            </td>
+        </tr>
+</table>
+<a asp-controller="Employee" asp-action="List">Back To List</a>

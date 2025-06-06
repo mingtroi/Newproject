@@ -1,0 +1,34 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+@addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
+@using WebClient.Models;
+<a asp-controller="Department" asp-action="Create">Create New Department</a>
+<table>
+    <tr>
+        <th>Department Id</th>
+        <th>Department Name</th>
+        <th>Description</th>
+    </tr>
+	@foreach (DepartmentDTO d in Model)
+	{
+		<tr>
+			<td><a asp-action="Detail" asp-controller="Department" asp-route-id="@d.DepartmentId">@d.DepartmentId</a></td>
+			<td>@d.DepartmentName</td>
+			<td>@d.Description</td>
+			<td>
+				<a asp-controller="Department" asp-action="ModifyEmployee" asp-route-id="@d.DepartmentId">Modify Department Employee</a>
+			</td>
+			<td>
+				<a asp-controller="Department" asp-action="Update" asp-route-id="@d.DepartmentId">Update</a>
+			</td>
+			<td>
+				<form asp-action="Delete" asp-controller="Department" asp-route-id="@d.DepartmentId" method="post">
+					<button type="submit">Delete</button>
+				</form>
+			</td>
+		</tr>
+	})
+</table>

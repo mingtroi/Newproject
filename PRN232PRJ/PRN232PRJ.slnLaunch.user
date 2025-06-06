@@ -1,0 +1,15 @@
+[
+  {
+    "Name": "New Profile",
+    "Projects": [
+      {
+        "Path": "PRN232PRJ.csproj",
+        "Action": "Start"
+      },
+      {
+        "Path": "..\\WebClient\\WebClient.csproj",
+        "Action": "Start"
+      }
+    ]
+  }
+]
