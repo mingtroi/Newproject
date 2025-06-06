@@ -3,6 +3,9 @@
   "WorkspaceRootPath": "D:\\Visual_code\\PRN232\\Newproject\\PRN232PRJ\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{11AC2718-5D5B-4359-92F4-179B5E117E95}|..\\WebClient\\WebClient.csproj|d:\\visual_code\\prn232\\newproject\\webclient\\views\\employee\\list.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Visual_code\\PRN232\\PROject\\WebClient\\Controllers\\SalaryController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -150,6 +153,19 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "List.cshtml",
+              "DocumentMoniker": "D:\\Visual_code\\PRN232\\Newproject\\WebClient\\Views\\Employee\\List.cshtml",
+              "RelativeDocumentMoniker": "..\\WebClient\\Views\\Employee\\List.cshtml",
+              "ToolTip": "D:\\Visual_code\\PRN232\\Newproject\\WebClient\\Views\\Employee\\List.cshtml",
+              "RelativeToolTip": "..\\WebClient\\Views\\Employee\\List.cshtml",
+              "ViewState": "AgIAADgAAAAAAAAAAAAAAEYAAAA8AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-06T16:07:44.649Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "SalaryController.cs",
               "DocumentMoniker": "D:\\Visual_code\\PRN232\\PROject\\WebClient\\Controllers\\SalaryController.cs",
               "RelativeDocumentMoniker": "..\\..\\PROject\\WebClient\\Controllers\\SalaryController.cs",
@@ -162,7 +178,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 14,
               "Title": "DepartmentController.cs",
               "DocumentMoniker": "D:\\Visual_code\\PRN232\\PROject\\WebClient\\Controllers\\DepartmentController.cs",
               "RelativeDocumentMoniker": "..\\..\\PROject\\WebClient\\Controllers\\DepartmentController.cs",
@@ -174,7 +190,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 15,
               "Title": "List.cshtml",
               "DocumentMoniker": "D:\\Visual_code\\PRN232\\PROject\\WebClient\\Views\\Salary\\List.cshtml",
               "RelativeDocumentMoniker": "..\\..\\PROject\\WebClient\\Views\\Salary\\List.cshtml",
@@ -186,7 +202,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 16,
               "Title": "DepartmentDTO.cs",
               "DocumentMoniker": "D:\\Visual_code\\PRN232\\PROject\\WebClient\\Models\\DepartmentDTO.cs",
               "RelativeDocumentMoniker": "..\\..\\PROject\\WebClient\\Models\\DepartmentDTO.cs",
@@ -198,7 +214,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "SalaryController.cs",
               "DocumentMoniker": "D:\\Visual_code\\PRN232\\Newproject\\PRN232PRJ\\Controllers\\SalaryController.cs",
               "RelativeDocumentMoniker": "Controllers\\SalaryController.cs",
@@ -210,7 +226,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 17,
               "Title": "APIFunction.cs",
               "DocumentMoniker": "D:\\Visual_code\\PRN232\\PROject\\WebClient\\APIFunction.cs",
               "RelativeDocumentMoniker": "..\\..\\PROject\\WebClient\\APIFunction.cs",
@@ -222,7 +238,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 18,
               "Title": "ModifyEmployee.cshtml",
               "DocumentMoniker": "D:\\Visual_code\\PRN232\\PROject\\WebClient\\Views\\Department\\ModifyEmployee.cshtml",
               "RelativeDocumentMoniker": "..\\..\\PROject\\WebClient\\Views\\Department\\ModifyEmployee.cshtml",
@@ -234,7 +250,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 19,
               "Title": "List.cshtml",
               "DocumentMoniker": "D:\\Visual_code\\PRN232\\PROject\\WebClient\\Views\\Department\\List.cshtml",
               "RelativeDocumentMoniker": "..\\..\\PROject\\WebClient\\Views\\Department\\List.cshtml",
@@ -246,7 +262,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 20,
               "Title": "List.cshtml",
               "DocumentMoniker": "D:\\Visual_code\\PRN232\\PROject\\WebClient\\Views\\Employee\\List.cshtml",
               "RelativeDocumentMoniker": "..\\..\\PROject\\WebClient\\Views\\Employee\\List.cshtml",
@@ -258,7 +274,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 21,
               "Title": "EmployeeController.cs",
               "DocumentMoniker": "D:\\Visual_code\\PRN232\\PROject\\WebClient\\Controllers\\EmployeeController.cs",
               "RelativeDocumentMoniker": "..\\..\\PROject\\WebClient\\Controllers\\EmployeeController.cs",
@@ -270,7 +286,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 22,
               "Title": "SalaryDTO.cs",
               "DocumentMoniker": "D:\\Visual_code\\PRN232\\PROject\\WebClient\\Models\\SalaryDTO.cs",
               "RelativeDocumentMoniker": "..\\..\\PROject\\WebClient\\Models\\SalaryDTO.cs",
@@ -282,7 +298,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 23,
               "Title": "_AdminLayout.cshtml",
               "DocumentMoniker": "D:\\Visual_code\\PRN232\\PROject\\WebClient\\Views\\Shared\\_AdminLayout.cshtml",
               "RelativeDocumentMoniker": "..\\..\\PROject\\WebClient\\Views\\Shared\\_AdminLayout.cshtml",
@@ -294,7 +310,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 24,
               "Title": "EmployeeDTO.cs",
               "DocumentMoniker": "D:\\Visual_code\\PRN232\\PROject\\WebClient\\Models\\EmployeeDTO.cs",
               "RelativeDocumentMoniker": "..\\..\\PROject\\WebClient\\Models\\EmployeeDTO.cs",
@@ -306,7 +322,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 25,
               "Title": "Salary.cs",
               "DocumentMoniker": "D:\\Visual_code\\PRN232\\PROject\\BusinessObject\\Models\\Salary.cs",
               "RelativeDocumentMoniker": "..\\..\\PROject\\BusinessObject\\Models\\Salary.cs",
@@ -318,7 +334,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 26,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\Visual_code\\PRN232\\PROject\\WebClient\\Program.cs",
               "RelativeDocumentMoniker": "..\\..\\PROject\\WebClient\\Program.cs",
@@ -330,7 +346,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 27,
               "Title": "ErrorViewModel.cs",
               "DocumentMoniker": "D:\\Visual_code\\PRN232\\PROject\\WebClient\\Models\\ErrorViewModel.cs",
               "RelativeDocumentMoniker": "..\\..\\PROject\\WebClient\\Models\\ErrorViewModel.cs",
@@ -342,7 +358,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "DepartmentVM.cs",
               "DocumentMoniker": "D:\\Visual_code\\PRN232\\Newproject\\PRN232PRJ\\ViewModel\\DepartmentVM.cs",
               "RelativeDocumentMoniker": "ViewModel\\DepartmentVM.cs",
@@ -354,7 +370,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 28,
               "Title": "BusinessObject.csproj",
               "DocumentMoniker": "D:\\Visual_code\\PRN232\\PROject\\BusinessObject\\BusinessObject.csproj",
               "RelativeDocumentMoniker": "..\\..\\PROject\\BusinessObject\\BusinessObject.csproj",
@@ -366,7 +382,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "SalaryVM.cs",
               "DocumentMoniker": "D:\\Visual_code\\PRN232\\Newproject\\PRN232PRJ\\ViewModel\\SalaryVM.cs",
               "RelativeDocumentMoniker": "ViewModel\\SalaryVM.cs",
@@ -378,7 +394,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "EmployeeController.cs",
               "DocumentMoniker": "D:\\Visual_code\\PRN232\\Newproject\\PRN232PRJ\\Controllers\\EmployeeController.cs",
               "RelativeDocumentMoniker": "Controllers\\EmployeeController.cs",
@@ -390,7 +406,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "DepartmentsController.cs",
               "DocumentMoniker": "D:\\Visual_code\\PRN232\\Newproject\\PRN232PRJ\\Controllers\\DepartmentsController.cs",
               "RelativeDocumentMoniker": "Controllers\\DepartmentsController.cs",
@@ -402,7 +418,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "EmployeeVM.cs",
               "DocumentMoniker": "D:\\Visual_code\\PRN232\\Newproject\\PRN232PRJ\\ViewModel\\EmployeeVM.cs",
               "RelativeDocumentMoniker": "ViewModel\\EmployeeVM.cs",
@@ -414,7 +430,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "NotificationController.cs",
               "DocumentMoniker": "D:\\Visual_code\\PRN232\\Newproject\\PRN232PRJ\\Controllers\\NotificationController.cs",
               "RelativeDocumentMoniker": "Controllers\\NotificationController.cs",
@@ -426,7 +442,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
               "Title": "ApplicationMapper.cs",
               "DocumentMoniker": "D:\\Visual_code\\PRN232\\Newproject\\PRN232PRJ\\AutoMapper\\ApplicationMapper.cs",
               "RelativeDocumentMoniker": "AutoMapper\\ApplicationMapper.cs",
@@ -438,7 +454,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
+              "DocumentIndex": 29,
               "Title": "Detail.cshtml",
               "DocumentMoniker": "D:\\Visual_code\\PRN232\\PROject\\WebClient\\Views\\Department\\Detail.cshtml",
               "RelativeDocumentMoniker": "..\\..\\PROject\\WebClient\\Views\\Department\\Detail.cshtml",
@@ -450,7 +466,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 10,
               "Title": "AddAndRemoveEmployeeDepartment.cs",
               "DocumentMoniker": "D:\\Visual_code\\PRN232\\Newproject\\PRN232PRJ\\ViewModel\\AddAndRemoveEmployeeDepartment.cs",
               "RelativeDocumentMoniker": "ViewModel\\AddAndRemoveEmployeeDepartment.cs",
@@ -462,7 +478,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 29,
+              "DocumentIndex": 30,
               "Title": "Create.cshtml",
               "DocumentMoniker": "D:\\Visual_code\\PRN232\\PROject\\WebClient\\Views\\Department\\Create.cshtml",
               "RelativeDocumentMoniker": "..\\..\\PROject\\WebClient\\Views\\Department\\Create.cshtml",
@@ -474,7 +490,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 30,
+              "DocumentIndex": 31,
               "Title": "Detail.cshtml",
               "DocumentMoniker": "D:\\Visual_code\\PRN232\\PROject\\WebClient\\Views\\Employee\\Detail.cshtml",
               "RelativeDocumentMoniker": "..\\..\\PROject\\WebClient\\Views\\Employee\\Detail.cshtml",
@@ -486,7 +502,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 31,
+              "DocumentIndex": 32,
               "Title": "Create.cshtml",
               "DocumentMoniker": "D:\\Visual_code\\PRN232\\PROject\\WebClient\\Views\\Employee\\Create.cshtml",
               "RelativeDocumentMoniker": "..\\..\\PROject\\WebClient\\Views\\Employee\\Create.cshtml",
@@ -498,7 +514,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 32,
+              "DocumentIndex": 33,
               "Title": "Update.cshtml",
               "DocumentMoniker": "D:\\Visual_code\\PRN232\\PROject\\WebClient\\Views\\Department\\Update.cshtml",
               "RelativeDocumentMoniker": "..\\..\\PROject\\WebClient\\Views\\Department\\Update.cshtml",
@@ -510,7 +526,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 33,
+              "DocumentIndex": 34,
               "Title": "Update.cshtml",
               "DocumentMoniker": "D:\\Visual_code\\PRN232\\PROject\\WebClient\\Views\\Employee\\Update.cshtml",
               "RelativeDocumentMoniker": "..\\..\\PROject\\WebClient\\Views\\Employee\\Update.cshtml",
@@ -522,7 +538,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 34,
+              "DocumentIndex": 35,
               "Title": "HomeController.cs",
               "DocumentMoniker": "D:\\Visual_code\\PRN232\\PROject\\WebClient\\Controllers\\HomeController.cs",
               "RelativeDocumentMoniker": "..\\..\\PROject\\WebClient\\Controllers\\HomeController.cs",
@@ -534,7 +550,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 35,
+              "DocumentIndex": 36,
               "Title": "Department.cs",
               "DocumentMoniker": "D:\\Visual_code\\PRN232\\PROject\\BusinessObject\\Models\\Department.cs",
               "RelativeDocumentMoniker": "..\\..\\PROject\\BusinessObject\\Models\\Department.cs",
@@ -546,7 +562,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 11,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\Visual_code\\PRN232\\Newproject\\PRN232PRJ\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
@@ -558,7 +574,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 36,
+              "DocumentIndex": 37,
               "Title": "20250529090753_InitialCreate.Designer.cs",
               "DocumentMoniker": "D:\\Visual_code\\PRN232\\PROject\\BusinessObject\\Migrations\\20250529090753_InitialCreate.Designer.cs",
               "RelativeDocumentMoniker": "..\\..\\PROject\\BusinessObject\\Migrations\\20250529090753_InitialCreate.Designer.cs",
@@ -570,7 +586,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 37,
+              "DocumentIndex": 38,
               "Title": "NewHrmanagementContextModelSnapshot.cs",
               "DocumentMoniker": "D:\\Visual_code\\PRN232\\PROject\\BusinessObject\\Migrations\\NewHrmanagementContextModelSnapshot.cs",
               "RelativeDocumentMoniker": "..\\..\\PROject\\BusinessObject\\Migrations\\NewHrmanagementContextModelSnapshot.cs",
@@ -582,7 +598,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 12,
               "Title": "WeatherForecastController.cs",
               "DocumentMoniker": "D:\\Visual_code\\PRN232\\Newproject\\PRN232PRJ\\Controllers\\WeatherForecastController.cs",
               "RelativeDocumentMoniker": "Controllers\\WeatherForecastController.cs",
@@ -594,7 +610,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 38,
+              "DocumentIndex": 39,
               "Title": "appsettings.json",
               "DocumentMoniker": "D:\\Visual_code\\PRN232\\PROject\\BusinessObject\\appsettings.json",
               "RelativeDocumentMoniker": "..\\..\\PROject\\BusinessObject\\appsettings.json",
@@ -606,7 +622,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 13,
               "Title": "appsettings.json",
               "DocumentMoniker": "D:\\Visual_code\\PRN232\\Newproject\\PRN232PRJ\\appsettings.json",
               "RelativeDocumentMoniker": "appsettings.json",
@@ -618,7 +634,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 39,
+              "DocumentIndex": 40,
               "Title": "Class1.cs",
               "DocumentMoniker": "D:\\Visual_code\\PRN232\\PROject\\BusinessObject\\Class1.cs",
               "RelativeDocumentMoniker": "..\\..\\PROject\\BusinessObject\\Class1.cs",
@@ -630,7 +646,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 40,
+              "DocumentIndex": 41,
               "Title": "appsettings.json",
               "DocumentMoniker": "D:\\Visual_code\\PRN232\\PROject\\WebClient\\appsettings.json",
               "RelativeDocumentMoniker": "..\\..\\PROject\\WebClient\\appsettings.json",
